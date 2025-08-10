@@ -1,0 +1,96 @@
+# ===================
+# Unity generated
+# ===================
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Assets/AssetStoreTools*
+/Packages/Packages.manifest
+/Packages/lock.json
+/UserSettings/
+!/Assets/
+!/ProjectSettings/
+/[Ll]ogs/
+
+# ===================
+# Visual Studio generated
+# ===================
+*.csproj
+*.sln
+*.userprefs
+*.user
+*.tds
+*.suo
+*.vsproj*
+*.vs/
+[Oo]ut/
+[Dd]ebug*/
+[Rr]elease*/
+*_BackUp*/
+
+# ===================
+# OS generated files
+# ===================
+.DS_Store*
+._*
+Thumbs.db
+ehthumbs.db
+Icon\r
+Icon?
+*. Spotlight
+*~\*
+*.swp
+*.swo
+*.un~
+*.pyc
+# ===================
+# Unity specific
+# ===================
+/Assets/__BuiltinTextures/
+/Assets/AssetStore*
+/ProjectSettings/ProjectVersion.txt
+/ProjectSettings/EditorSettings.asset
+/UserSettings/*
+!/UserSettings/EditorUserSettings.asset
+
+# ===================
+# Temporary files
+# ===================
+*.tmp
+*.backup
+*.log
+!*.meta
+!*.asset.meta
+!*.prefab.meta
+!*.unity.meta
+!*.scene.meta
+!*.controller.meta
+!*.anim.meta
+!*.spriteatlas.meta
+!*.png.meta    # เพิ่มบรรทัดนี้
+!*.jpg.meta    # เพิ่มบรรทัดนี้
+!*.jpeg.meta   # เพิ่มบรรทัดนี้
+!*.tga.meta    # เพิ่มบรรทัดนี้
+!*.psd.meta    # เพิ่มบรรทัดนี้ (ถ้าใช้)
+
+# ===================
+# Pixel Art specific (Potential)
+# ===================
+*.ase # Aseprite files (if used)
+*.psd # Photoshop files (if used) - consider if you want these in repo
+*.xcf # GIMP files (if used) - consider if you want these in repo
+*.png # If you generate temp PNGs
+*.tga # If you generate temp TGAs
+
+# ===================
+# Git LFS
+# ===================
+*.png filter=lfs diff=lfs merge=lfs
+*.jpg filter=lfs diff=lfs merge=lfs
+*.jpeg filter=lfs diff=lfs merge=lfs
+*.gif filter=lfs diff=lfs merge=lfs
+*.psb filter=lfs diff=lfs merge=lfs # Large Photoshop files
+*.tif filter=lfs diff=lfs merge=lfs
+*.tiff filter=lfs diff=lfs merge=lfs

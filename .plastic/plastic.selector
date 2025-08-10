@@ -1,0 +1,3 @@
+repository "Alchemite@unity_g30Gxh9G41HqjQ@cloud"
+  path "/"
+    smartbranch "/main/AnotherBranches"

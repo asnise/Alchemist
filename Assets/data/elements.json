@@ -1,0 +1,1712 @@
+[
+    {
+        "id": 1,
+        "stack_": "1",
+        "sprite": "",
+        "name_": "Hydrogen",
+        "description_": "สารเคมีที่พบมากที่สุดในจักรวาล ส่วนใหญ่พบในดวงดาวและดาวเคราะห์แก๊ส",
+        "symbol_": "H",
+        "elementState_": "Gas",
+        "atom_number": "1",
+        "atom_mass": "1.008",
+        "weight": "1.008",
+        "photron_": "1",
+        "electron_": "1",
+        "pos_in_table": {
+            "x": "1",
+            "y": "1"
+        },
+        "price": 13
+    },
+    {
+        "id": 2,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Oxygen",
+        "description_": "จำเป็นสำหรับการหายใจของสิ่งมีชีวิตส่วนใหญ่ และเกี่ยวข้องกับการเผาไหม้",
+        "symbol_": "O",
+        "elementState_": "Gas",
+        "atom_number": "8",
+        "atom_mass": "15.999",
+        "weight": "15.999",
+        "photron_": "8",
+        "electron_": "8",
+        "pos_in_table": {
+            "x": "16",
+            "y": "2"
+        },
+        "price": 15
+    },
+    {
+        "id": 3,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Carbon",
+        "description_": "ธาตุที่เป็นส่วนประกอบสำคัญของสิ่งมีชีวิตและสารอินทรีย์ต่าง ๆ",
+        "symbol_": "C",
+        "elementState_": "Solid",
+        "atom_number": "6",
+        "atom_mass": "12.011",
+        "weight": "12.011",
+        "photron_": "6",
+        "electron_": "6",
+        "pos_in_table": {
+            "x": "14",
+            "y": "2"
+        },
+        "price": 10
+    },
+    {
+        "id": 4,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Nitrogen",
+        "description_": "แก๊สที่เป็นส่วนประกอบหลักของบรรยากาศโลกและสำคัญต่อสิ่งมีชีวิต",
+        "symbol_": "N",
+        "elementState_": "Gas",
+        "atom_number": "7",
+        "atom_mass": "14.007",
+        "weight": "14.007",
+        "photron_": "7",
+        "electron_": "7",
+        "pos_in_table": {
+            "x": "15",
+            "y": "2"
+        },
+        "price": 13
+    },
+    {
+        "id": 5,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Sodium",
+        "description_": "โลหะที่มีปฏิกิริยาสูง พบในเกลือและมีความสำคัญต่อการทำงานของเซลล์",
+        "symbol_": "Na",
+        "elementState_": "Solid",
+        "atom_number": "11",
+        "atom_mass": "22.990",
+        "weight": "22.990",
+        "photron_": "11",
+        "electron_": "11",
+        "pos_in_table": {
+            "x": "1",
+            "y": "3"
+        },
+        "price": 20
+    },
+    {
+        "id": 6,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Helium",
+        "description_": "แก๊สเฉื่อยที่ใช้ในลูกโป่งและการทำความเย็นขั้นสูง",
+        "symbol_": "He",
+        "elementState_": "Gas",
+        "atom_number": "2",
+        "atom_mass": "4.0026",
+        "weight": "4.0026",
+        "photron_": "2",
+        "electron_": "2",
+        "pos_in_table": {
+            "x": "18",
+            "y": "1"
+        },
+        "price": 44
+    },
+    {
+        "id": 7,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Chlorine",
+        "description_": "ธาตุที่ใช้ในการฆ่าเชื้อโรคในน้ำและผลิตภัณฑ์ทางเคมี",
+        "symbol_": "Cl",
+        "elementState_": "Solid",
+        "atom_number": "17",
+        "atom_mass": "35.45",
+        "weight": "35.45",
+        "photron_": "17",
+        "electron_": "17",
+        "pos_in_table": {
+            "x": "17",
+            "y": "3"
+        },
+        "price": 14
+    },
+    {
+        "id": 8,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Iron",
+        "description_": "โลหะที่ใช้ในการสร้างเครื่องมือและอุปกรณ์ต่าง ๆ รวมถึงเป็นส่วนประกอบสำคัญในเลือดมนุษย์",
+        "symbol_": "Fe",
+        "elementState_": "Solid",
+        "atom_number": "26",
+        "atom_mass": "55.845",
+        "weight": "55.845",
+        "photron_": "26",
+        "electron_": "26",
+        "pos_in_table": {
+            "x": "8",
+            "y": "4"
+        },
+        "price": 16
+    },
+    {
+        "id": 9,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Calcium",
+        "description_": "ธาตุที่สำคัญต่อการสร้างกระดูกและฟัน และยังเกี่ยวข้องกับการทำงานของระบบประสาท",
+        "symbol_": "Ca",
+        "elementState_": "Solid",
+        "atom_number": "20",
+        "atom_mass": "40.078",
+        "weight": "40.078",
+        "photron_": "20",
+        "electron_": "20",
+        "pos_in_table": {
+            "x": "2",
+            "y": "4"
+        },
+        "price": 66
+    },
+    {
+        "id": 10,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Sulfur",
+        "description_": "ธาตุที่ใช้ในการผลิตยาง ซัลไฟด์ และสารเคมีอื่น ๆ",
+        "symbol_": "S",
+        "elementState_": "Solid",
+        "atom_number": "16",
+        "atom_mass": "32.06",
+        "weight": "32.06",
+        "photron_": "16",
+        "electron_": "16",
+        "pos_in_table": {
+            "x": "16",
+            "y": "3"
+        },
+        "price": 47
+    },
+    {
+        "id": 11,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Phosphorus",
+        "description_": "ธาตุที่สำคัญในกระบวนการสร้างพลังงานในสิ่งมีชีวิต และยังใช้ในผลิตภัณฑ์การเกษตร",
+        "symbol_": "P",
+        "elementState_": "Solid",
+        "atom_number": "15",
+        "atom_mass": "30.974",
+        "weight": "30.974",
+        "photron_": "15",
+        "electron_": "15",
+        "pos_in_table": {
+            "x": "15",
+            "y": "3"
+        },
+        "price": 19
+    },
+    {
+        "id": 12,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Magnesium",
+        "description_": "ธาตุที่สำคัญในกระบวนการสร้างพลังงานในร่างกาย และใช้ในการผลิตโลหะน้ำหนักเบา",
+        "symbol_": "Mg",
+        "elementState_": "Solid",
+        "atom_number": "12",
+        "atom_mass": "24.305",
+        "weight": "24.305",
+        "photron_": "12",
+        "electron_": "12",
+        "pos_in_table": {
+            "x": "2",
+            "y": "3"
+        },
+        "price": 54
+    },
+    {
+        "id": 13,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Mercury",
+        "description_": "ปรอทเป็นโลหะหนักสีเงินในบล็อก-d เป็นธาตุโลหะชนิดเดียวที่เป็นของเหลวในที่อุณหภูมิและความดันมาตรฐาน",
+        "symbol_": "Hg",
+        "elementState_": "Liquid",
+        "atom_number": "80",
+        "atom_mass": "200.59",
+        "weight": "13.534",
+        "photron_": "80",
+        "electron_": "80",
+        "pos_in_table": {
+            "x": "12",
+            "y": "6"
+        },
+        "price": 44
+    },
+    {
+        "id": 14,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Neon",
+        "description_": "ก๊าซเฉื่อยที่ใช้ในป้ายไฟนีออนและหลอดไฟฟลูออเรสเซนต์",
+        "symbol_": "Ne",
+        "elementState_": "Gas",
+        "atom_number": "10",
+        "atom_mass": "20.18",
+        "weight": "20.18",
+        "photron_": "10",
+        "electron_": "10",
+        "pos_in_table": {
+            "x": "18",
+            "y": "2"
+        },
+        "price": 19
+    },
+    {
+        "id": 15,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Aluminum",
+        "description_": "โลหะเบา ทนทาน ใช้ในอุตสาหกรรมก่อสร้าง ยานยนต์ และบรรจุภัณฑ์",
+        "symbol_": "Al",
+        "elementState_": "Solid",
+        "atom_number": "13",
+        "atom_mass": "26.98",
+        "weight": "26.98",
+        "photron_": "13",
+        "electron_": "13",
+        "pos_in_table": {
+            "x": "13",
+            "y": "3"
+        },
+        "price": 11
+    },
+    {
+        "id": 16,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Fluorine",
+        "description_": "อโลหะที่มีความไวต่อปฏิกิริยาสูง ใช้ในสารฟลูออไรด์ที่ช่วยป้องกันฟันผุ",
+        "symbol_": "F",
+        "elementState_": "Gas",
+        "atom_number": "9",
+        "atom_mass": "18.99",
+        "weight": "18.99",
+        "photron_": "9",
+        "electron_": "9",
+        "pos_in_table": {
+            "x": "17",
+            "y": "2"
+        },
+        "price": 12
+    },
+    {
+        "id": 17,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Silicon",
+        "description_": "กึ่งโลหะที่ใช้ในอุตสาหกรรมชิปคอมพิวเตอร์และเซมิคอนดักเตอร์",
+        "symbol_": "Si",
+        "elementState_": "Solid",
+        "atom_number": "14",
+        "atom_mass": "28.08",
+        "weight": "28.08",
+        "photron_": "14",
+        "electron_": "14",
+        "pos_in_table": {
+            "x": "14",
+            "y": "3"
+        },
+        "price": 55
+    },
+    {
+        "id": 18,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Argon",
+        "description_": "ก๊าซเฉื่อยที่ใช้ในหลอดไฟและการเชื่อมโลหะ",
+        "symbol_": "Ar",
+        "elementState_": "Gas",
+        "atom_number": "18",
+        "atom_mass": "39.95",
+        "weight": "39.95",
+        "photron_": "18",
+        "electron_": "18",
+        "pos_in_table": {
+            "x": "18",
+            "y": "3"
+        },
+        "price": 12
+    },
+    {
+        "id": 19,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Potassium",
+        "description_": "ธาตุที่สำคัญต่อการทำงานของเซลล์และระบบกล้ามเนื้อ",
+        "symbol_": "K",
+        "elementState_": "Solid",
+        "atom_number": "19",
+        "atom_mass": "39.10",
+        "weight": "39.10",
+        "photron_": "19",
+        "electron_": "19",
+        "pos_in_table": {
+            "x": "1",
+            "y": "4"
+        },
+        "price": 24
+    },
+    {
+        "id": 20,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Strontium",
+        "description_": "ใช้ในการผลิตแก้วพิเศษและทำพลุไฟ",
+        "symbol_": "Sr",
+        "elementState_": "Solid",
+        "atom_number": "38",
+        "atom_mass": "87.62",
+        "weight": "87.62",
+        "photron_": "38",
+        "electron_": "38",
+        "pos_in_table": {
+            "x": "2",
+            "y": "5"
+        },
+        "price": 17
+    },
+    {
+        "id": 21,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Krypton",
+        "description_": "ก๊าซเฉื่อยที่ใช้ในหลอดไฟและเลเซอร์",
+        "symbol_": "Kr",
+        "elementState_": "Gas",
+        "atom_number": "36",
+        "atom_mass": "83.80",
+        "weight": "83.80",
+        "photron_": "36",
+        "electron_": "36",
+        "pos_in_table": {
+            "x": "18",
+            "y": "4"
+        },
+        "price": 19
+    },
+    {
+        "id": 22,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Rubidium",
+        "description_": "โลหะอัลคาไลที่ไวต่อปฏิกิริยาสูง ใช้ในงานวิจัยวิทยาศาสตร์",
+        "symbol_": "Rb",
+        "elementState_": "Solid",
+        "atom_number": "37",
+        "atom_mass": "85.47",
+        "weight": "85.47",
+        "photron_": "37",
+        "electron_": "37",
+        "pos_in_table": {
+            "x": "1",
+            "y": "5"
+        },
+        "price": 17
+    },
+    {
+        "id": 23,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Cesium",
+        "description_": "โลหะที่ใช้ในนาฬิกาอะตอมและการตรวจสอบความถี่วิทยุ",
+        "symbol_": "Cs",
+        "elementState_": "Solid",
+        "atom_number": "55",
+        "atom_mass": "132.91",
+        "weight": "132.91",
+        "photron_": "55",
+        "electron_": "55",
+        "pos_in_table": {
+            "x": "1",
+            "y": "6"
+        },
+        "price": 13
+    },
+    {
+        "id": 24,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Barium",
+        "description_": "ใช้ในการถ่ายภาพรังสีและสารทึบแสง",
+        "symbol_": "Ba",
+        "elementState_": "Solid",
+        "atom_number": "56",
+        "atom_mass": "137.33",
+        "weight": "137.33",
+        "photron_": "56",
+        "electron_": "56",
+        "pos_in_table": {
+            "x": "2",
+            "y": "6"
+        },
+        "price": 19
+    },
+    {
+        "id": 25,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Xenon",
+        "description_": "ก๊าซเฉื่อยที่ใช้ในหลอดไฟฟลูออเรสเซนต์และเลเซอร์",
+        "symbol_": "Xe",
+        "elementState_": "Gas",
+        "atom_number": "54",
+        "atom_mass": "131.29",
+        "weight": "131.29",
+        "photron_": "54",
+        "electron_": "54",
+        "pos_in_table": {
+            "x": "18",
+            "y": "5"
+        },
+        "price": 16
+    },
+    {
+        "id": 26,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Radium",
+        "description_": "โลหะที่มีความสามารถในการแผ่รังสี ใช้ในอุตสาหกรรมทางการแพทย์",
+        "symbol_": "Ra",
+        "elementState_": "Solid",
+        "atom_number": "88",
+        "atom_mass": "226",
+        "weight": "226",
+        "photron_": "88",
+        "electron_": "88",
+        "pos_in_table": {
+            "x": "2",
+            "y": "7"
+        },
+        "price": 39
+    },
+    {
+        "id": 27,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Actinium",
+        "description_": "ธาตุกัมมันตรังสีที่พบในแร่และมีบทบาทในการวิจัยด้านนิวเคลียร์",
+        "symbol_": "Ac",
+        "elementState_": "Solid",
+        "atom_number": "89",
+        "atom_mass": "227",
+        "weight": "227",
+        "photron_": "89",
+        "electron_": "89",
+        "pos_in_table": {
+            "x": "3",
+            "y": "7"
+        },
+        "price": 16
+    },
+    {
+        "id": 28,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Boron",
+        "description_": "กึ่งโลหะที่ใช้ในสารทนไฟและผลิตภัณฑ์ทำความสะอาด",
+        "symbol_": "B",
+        "elementState_": "Solid",
+        "atom_number": "5",
+        "atom_mass": "10.81",
+        "weight": "10.81",
+        "photron_": "5",
+        "electron_": "5",
+        "pos_in_table": {
+            "x": "13",
+            "y": "2"
+        },
+        "price": 25
+    },
+    {
+        "id": 29,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Iodine",
+        "description_": "ใช้ในทางการแพทย์และช่วยในการสร้างฮอร์โมนในร่างกาย",
+        "symbol_": "I",
+        "elementState_": "Solid",
+        "atom_number": "53",
+        "atom_mass": "126.90",
+        "weight": "126.90",
+        "photron_": "53",
+        "electron_": "53",
+        "pos_in_table": {
+            "x": "17",
+            "y": "5"
+        },
+        "price": 68
+    },
+    {
+        "id": 30,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Lanthanum",
+        "description_": "ใช้ในการผลิตอุปกรณ์แสงสว่างและแบตเตอรี่",
+        "symbol_": "La",
+        "elementState_": "Solid",
+        "atom_number": "57",
+        "atom_mass": "138.91",
+        "weight": "138.91",
+        "photron_": "57",
+        "electron_": "57",
+        "pos_in_table": {
+            "x": "3",
+            "y": "6"
+        },
+        "price": 14
+    },
+    {
+        "id": 31,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Ununseptium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Uus",
+        "elementState_": "Solid",
+        "atom_number": "117",
+        "atom_mass": "293",
+        "weight": "293",
+        "photron_": "117",
+        "electron_": "117",
+        "pos_in_table": {
+            "x": "17",
+            "y": "7"
+        },
+        "price": 19
+    },
+    {
+        "id": 32,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Scandium",
+        "description_": "โลหะที่ใช้ในอุตสาหกรรมอากาศยานและแสงสว่าง",
+        "symbol_": "Sc",
+        "elementState_": "Solid",
+        "atom_number": "21",
+        "atom_mass": "44.96",
+        "weight": "44.96",
+        "photron_": "21",
+        "electron_": "21",
+        "pos_in_table": {
+            "x": "3",
+            "y": "4"
+        },
+        "price": 11
+    },
+    {
+        "id": 33,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Titanium",
+        "description_": "โลหะที่แข็งแรงและน้ำหนักเบา ใช้ในอุตสาหกรรมการบินและอุปกรณ์ทางการแพทย์",
+        "symbol_": "Ti",
+        "elementState_": "Solid",
+        "atom_number": "22",
+        "atom_mass": "47.87",
+        "weight": "47.87",
+        "photron_": "22",
+        "electron_": "22",
+        "pos_in_table": {
+            "x": "4",
+            "y": "4"
+        },
+        "price": 44
+    },
+    {
+        "id": 34,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Chromium",
+        "description_": "ใช้ในการผลิตเหล็กกล้าไร้สนิมและการชุบโลหะ",
+        "symbol_": "Cr",
+        "elementState_": "Solid",
+        "atom_number": "24",
+        "atom_mass": "51.99",
+        "weight": "51.99",
+        "photron_": "24",
+        "electron_": "24",
+        "pos_in_table": {
+            "x": "6",
+            "y": "4"
+        },
+        "price": 12
+    },
+    {
+        "id": 35,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Manganese",
+        "description_": "ใช้ในการผลิตเหล็กกล้าและสารป้องกันสนิม",
+        "symbol_": "Mn",
+        "elementState_": "Solid",
+        "atom_number": "25",
+        "atom_mass": "54.94",
+        "weight": "54.94",
+        "photron_": "25",
+        "electron_": "25",
+        "pos_in_table": {
+            "x": "7",
+            "y": "4"
+        },
+        "price": 54
+    },
+    {
+        "id": 36,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Zinc",
+        "description_": "ใช้ในการเคลือบเหล็กเพื่อป้องกันการเกิดสนิมและในการทำแบตเตอรี่",
+        "symbol_": "Zn",
+        "elementState_": "Solid",
+        "atom_number": "30",
+        "atom_mass": "65.38",
+        "weight": "65.38",
+        "photron_": "30",
+        "electron_": "30",
+        "pos_in_table": {
+            "x": "12",
+            "y": "4"
+        },
+        "price": 15
+    },
+    {
+        "id": 37,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Niobium",
+        "description_": "โลหะที่มีความทนทานสูง ใช้ในอุตสาหกรรมอวกาศและเครื่องมือพิเศษ",
+        "symbol_": "Nb",
+        "elementState_": "Solid",
+        "atom_number": "41",
+        "atom_mass": "92.91",
+        "weight": "92.91",
+        "photron_": "41",
+        "electron_": "41",
+        "pos_in_table": {
+            "x": "5",
+            "y": "5"
+        },
+        "price": 13
+    },
+    {
+        "id": 38,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Zirconium",
+        "description_": "ใช้ในเครื่องประดับและวัสดุก่อสร้างเนื่องจากทนความร้อน",
+        "symbol_": "Zr",
+        "elementState_": "Solid",
+        "atom_number": "40",
+        "atom_mass": "91.22",
+        "weight": "91.22",
+        "photron_": "40",
+        "electron_": "40",
+        "pos_in_table": {
+            "x": "4",
+            "y": "5"
+        },
+        "price": 62
+    },
+    {
+        "id": 39,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Yttrium",
+        "description_": "ใช้ในการผลิตเซรามิกส์และหลอดภาพโทรทัศน์",
+        "symbol_": "Y",
+        "elementState_": "Solid",
+        "atom_number": "39",
+        "atom_mass": "88.91",
+        "weight": "88.91",
+        "photron_": "39",
+        "electron_": "39",
+        "pos_in_table": {
+            "x": "3",
+            "y": "5"
+        },
+        "price": 14
+    },
+    {
+        "id": 40,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Hafnium",
+        "description_": "ใช้ในอุตสาหกรรมพลังงานนิวเคลียร์และผลิตอุปกรณ์อิเล็กทรอนิกส์",
+        "symbol_": "Hf",
+        "elementState_": "Solid",
+        "atom_number": "72",
+        "atom_mass": "178.49",
+        "weight": "178.49",
+        "photron_": "72",
+        "electron_": "72",
+        "pos_in_table": {
+            "x": "4",
+            "y": "6"
+        },
+        "price": 21
+    },
+    {
+        "id": 41,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Vanadium",
+        "description_": "ใช้ในการผลิตเหล็กกล้าและวัสดุที่ทนต่อการกัดกร่อน",
+        "symbol_": "V",
+        "elementState_": "Solid",
+        "atom_number": "23",
+        "atom_mass": "50.94",
+        "weight": "50.94",
+        "photron_": "23",
+        "electron_": "23",
+        "pos_in_table": {
+            "x": "5",
+            "y": "4"
+        },
+        "price": 19
+    },
+    {
+        "id": 42,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Silver",
+        "description_": "โลหะมีค่า ใช้ในการทำเครื่องประดับและการนำไฟฟ้า",
+        "symbol_": "Ag",
+        "elementState_": "Solid",
+        "atom_number": "47",
+        "atom_mass": "107.87",
+        "weight": "107.87",
+        "photron_": "47",
+        "electron_": "47",
+        "pos_in_table": {
+            "x": "11",
+            "y": "5"
+        },
+        "price": 33.067197068
+    },
+    {
+        "id": 43,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Palladium",
+        "description_": "ใช้ในการผลิตอุปกรณ์ไฟฟ้าและในการทำปฏิกิริยาทางเคมี",
+        "symbol_": "Pd",
+        "elementState_": "Solid",
+        "atom_number": "46",
+        "atom_mass": "106.42",
+        "weight": "106.42",
+        "photron_": "46",
+        "electron_": "46",
+        "pos_in_table": {
+            "x": "10",
+            "y": "5"
+        },
+        "price": 965.6413229595
+    },
+    {
+        "id": 44,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Indium",
+        "description_": "ใช้ในการผลิตจอภาพและอุปกรณ์อิเล็กทรอนิกส์",
+        "symbol_": "In",
+        "elementState_": "Solid",
+        "atom_number": "49",
+        "atom_mass": "114.82",
+        "weight": "114.82",
+        "photron_": "49",
+        "electron_": "49",
+        "pos_in_table": {
+            "x": "13",
+            "y": "5"
+        },
+        "price": 57
+    },
+    {
+        "id": 45,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Tantalum",
+        "description_": "ใช้ในวงการอิเล็กทรอนิกส์และเป็นโลหะที่ทนทานต่อการกัดกร่อน",
+        "symbol_": "Ta",
+        "elementState_": "Solid",
+        "atom_number": "73",
+        "atom_mass": "180.95",
+        "weight": "180.95",
+        "photron_": "73",
+        "electron_": "73",
+        "pos_in_table": {
+            "x": "5",
+            "y": "6"
+        },
+        "price": 57
+    },
+    {
+        "id": 46,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Tungsten",
+        "description_": "โลหะที่มีจุดหลอมเหลวสูง ใช้ในหลอดไฟและอุปกรณ์ตัดโลหะ",
+        "symbol_": "W",
+        "elementState_": "Solid",
+        "atom_number": "74",
+        "atom_mass": "183.84",
+        "weight": "183.84",
+        "photron_": "74",
+        "electron_": "74",
+        "pos_in_table": {
+            "x": "6",
+            "y": "6"
+        },
+        "price": 47
+    },
+    {
+        "id": 47,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Molybdenum",
+        "description_": "ใช้ในการผลิตเหล็กกล้าและเป็นส่วนประกอบของเอ็นไซม์ในร่างกาย",
+        "symbol_": "Mo",
+        "elementState_": "Solid",
+        "atom_number": "42",
+        "atom_mass": "95.95",
+        "weight": "95.95",
+        "photron_": "42",
+        "electron_": "42",
+        "pos_in_table": {
+            "x": "6",
+            "y": "5"
+        },
+        "price": 11
+    },
+    {
+        "id": 48,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Beryllium",
+        "description_": "ใช้ในอุตสาหกรรมการผลิตวัสดุผสมและคอมพิวเตอร์",
+        "symbol_": "Be",
+        "elementState_": "Solid",
+        "atom_number": "4",
+        "atom_mass": "9.01",
+        "weight": "9.01",
+        "photron_": "4",
+        "electron_": "4",
+        "pos_in_table": {
+            "x": "2",
+            "y": "2"
+        },
+        "price": 22
+    },
+    {
+        "id": 49,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Lithium",
+        "description_": "โลหะอ่อน ใช้ในแบตเตอรี่และอุปกรณ์อิเล็กทรอนิกส์",
+        "symbol_": "Li",
+        "elementState_": "Solid",
+        "atom_number": "3",
+        "atom_mass": "6.94",
+        "weight": "6.94",
+        "photron_": "3",
+        "electron_": "3",
+        "pos_in_table": {
+            "x": "1",
+            "y": "2"
+        },
+        "price": 16
+    },
+    {
+        "id": 50,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Cobalt",
+        "description_": "ใช้ในการผลิตแม่เหล็กและโลหะผสม",
+        "symbol_": "Co",
+        "elementState_": "Solid",
+        "atom_number": "27",
+        "atom_mass": "58.93",
+        "weight": "58.93",
+        "photron_": "27",
+        "electron_": "27",
+        "pos_in_table": {
+            "x": "9",
+            "y": "4"
+        },
+        "price": 41
+    },
+    {
+        "id": 51,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Nickel",
+        "description_": "โลหะทนทาน ใช้ในอุตสาหกรรมการผลิตเหล็กและสเตนเลส",
+        "symbol_": "Ni",
+        "elementState_": "Solid",
+        "atom_number": "28",
+        "atom_mass": "58.69",
+        "weight": "58.69",
+        "photron_": "28",
+        "electron_": "28",
+        "pos_in_table": {
+            "x": "10",
+            "y": "4"
+        },
+        "price": 20
+    },
+    {
+        "id": 52,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Copper",
+        "description_": "โลหะที่มีความสามารถในการนำไฟฟ้าและความร้อนสูง ใช้ในสายไฟฟ้าและอุปกรณ์อิเล็กทรอนิกส์",
+        "symbol_": "Cu",
+        "elementState_": "Solid",
+        "atom_number": "29",
+        "atom_mass": "63.55",
+        "weight": "63.55",
+        "photron_": "29",
+        "electron_": "29",
+        "pos_in_table": {
+            "x": "11",
+            "y": "4"
+        },
+        "price": 20
+    },
+    {
+        "id": 53,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Gallium",
+        "description_": "ใช้ในการผลิตอุปกรณ์อิเล็กทรอนิกส์และแสงสว่าง",
+        "symbol_": "Ga",
+        "elementState_": "Solid",
+        "atom_number": "31",
+        "atom_mass": "69.72",
+        "weight": "69.72",
+        "photron_": "31",
+        "electron_": "31",
+        "pos_in_table": {
+            "x": "13",
+            "y": "4"
+        },
+        "price": 45
+    },
+    {
+        "id": 54,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Germanium",
+        "description_": "ใช้ในอุปกรณ์อิเล็กทรอนิกส์และเซมิคอนดักเตอร์",
+        "symbol_": "Ge",
+        "elementState_": "Solid",
+        "atom_number": "32",
+        "atom_mass": "72.63",
+        "weight": "72.63",
+        "photron_": "32",
+        "electron_": "32",
+        "pos_in_table": {
+            "x": "14",
+            "y": "4"
+        },
+        "price": 18
+    },
+    {
+        "id": 55,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Arsenic",
+        "description_": "สารพิษที่ใช้ในอุตสาหกรรมเกษตรและสารเคมี",
+        "symbol_": "As",
+        "elementState_": "Solid",
+        "atom_number": "33",
+        "atom_mass": "74.92",
+        "weight": "74.92",
+        "photron_": "33",
+        "electron_": "33",
+        "pos_in_table": {
+            "x": "15",
+            "y": "4"
+        },
+        "price": 26
+    },
+    {
+        "id": 56,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Selenium",
+        "description_": "ใช้ในอุปกรณ์อิเล็กทรอนิกส์และสารต้านอนุมูลอิสระ",
+        "symbol_": "Se",
+        "elementState_": "Solid",
+        "atom_number": "34",
+        "atom_mass": "78.96",
+        "weight": "78.96",
+        "photron_": "34",
+        "electron_": "34",
+        "pos_in_table": {
+            "x": "16",
+            "y": "4"
+        },
+        "price": 51
+    },
+    {
+        "id": 57,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Bromine",
+        "description_": "ใช้ในสารเคมีและอุตสาหกรรมยาฆ่าแมลง",
+        "symbol_": "Br",
+        "elementState_": "Liquid",
+        "atom_number": "35",
+        "atom_mass": "79.90",
+        "weight": "79.90",
+        "photron_": "35",
+        "electron_": "35",
+        "pos_in_table": {
+            "x": "17",
+            "y": "4"
+        },
+        "price": 59
+    },
+    {
+        "id": 58,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Technetium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในอุตสาหกรรมการแพทย์",
+        "symbol_": "Tc",
+        "elementState_": "Solid",
+        "atom_number": "43",
+        "atom_mass": "98",
+        "weight": "98",
+        "photron_": "43",
+        "electron_": "43",
+        "pos_in_table": {
+            "x": "7",
+            "y": "5"
+        },
+        "price": 35
+    },
+    {
+        "id": 59,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Ruthenium",
+        "description_": "ใช้ในอุตสาหกรรมเคมีและโลหะผสม",
+        "symbol_": "Ru",
+        "elementState_": "Solid",
+        "atom_number": "44",
+        "atom_mass": "101.07",
+        "weight": "101.07",
+        "photron_": "44",
+        "electron_": "44",
+        "pos_in_table": {
+            "x": "8",
+            "y": "5"
+        },
+        "price": 126
+    },
+    {
+        "id": 60,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Rhodium",
+        "description_": "ใช้ในอุตสาหกรรมเครื่องประดับและผลิตคาตาไลติก",
+        "symbol_": "Rh",
+        "elementState_": "Solid",
+        "atom_number": "45",
+        "atom_mass": "102.91",
+        "weight": "102.91",
+        "photron_": "45",
+        "electron_": "45",
+        "pos_in_table": {
+            "x": "9",
+            "y": "5"
+        },
+        "price": 20
+    },
+    {
+        "id": 61,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Cadmium",
+        "description_": "ใช้ในแบตเตอรี่และอุตสาหกรรมเคมี",
+        "symbol_": "Cd",
+        "elementState_": "Solid",
+        "atom_number": "48",
+        "atom_mass": "112.41",
+        "weight": "112.41",
+        "photron_": "48",
+        "electron_": "48",
+        "pos_in_table": {
+            "x": "12",
+            "y": "5"
+        },
+        "price": 19
+    },
+    {
+        "id": 62,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Tin",
+        "description_": "ใช้ในการผลิตเครื่องมือและการบัดกรี",
+        "symbol_": "Sn",
+        "elementState_": "Solid",
+        "atom_number": "50",
+        "atom_mass": "118.71",
+        "weight": "118.71",
+        "photron_": "50",
+        "electron_": "50",
+        "pos_in_table": {
+            "x": "14",
+            "y": "5"
+        },
+        "price": 25
+    },
+    {
+        "id": 63,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Antimony",
+        "description_": "ใช้ในอุตสาหกรรมและผลิตสารเคมี",
+        "symbol_": "Sb",
+        "elementState_": "Solid",
+        "atom_number": "51",
+        "atom_mass": "121.76",
+        "weight": "121.76",
+        "photron_": "51",
+        "electron_": "51",
+        "pos_in_table": {
+            "x": "15",
+            "y": "5"
+        },
+        "price": 15
+    },
+    {
+        "id": 64,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Tellurium",
+        "description_": "ใช้ในเซมิคอนดักเตอร์และอุปกรณ์อิเล็กทรอนิกส์",
+        "symbol_": "Te",
+        "elementState_": "Solid",
+        "atom_number": "52",
+        "atom_mass": "127.60",
+        "weight": "127.60",
+        "photron_": "52",
+        "electron_": "52",
+        "pos_in_table": {
+            "x": "16",
+            "y": "5"
+        },
+        "price": 148
+    },
+    {
+        "id": 65,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Rhenium",
+        "description_": "ใช้ในการผลิตเครื่องยนต์และอุปกรณ์อิเล็กทรอนิกส์ที่ทนความร้อนสูง\n\n",
+        "symbol_": "Re",
+        "elementState_": "Solid",
+        "atom_number": "75",
+        "atom_mass": "186.21",
+        "weight": "186.21",
+        "photron_": "75",
+        "electron_": "75",
+        "pos_in_table": {
+            "x": "7",
+            "y": "6"
+        },
+        "price": 14
+    },
+    {
+        "id": 66,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Osmium",
+        "description_": "ใช้ในอุปกรณ์ทางการแพทย์และอุตสาหกรรมเคมี",
+        "symbol_": "Os",
+        "elementState_": "Solid",
+        "atom_number": "76",
+        "atom_mass": "190.23",
+        "weight": "190.23",
+        "photron_": "76",
+        "electron_": "76",
+        "pos_in_table": {
+            "x": "8",
+            "y": "6"
+        },
+        "price": 11
+    },
+    {
+        "id": 67,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Iridium",
+        "description_": "ใช้ในเครื่องมือทางการแพทย์และอุปกรณ์อิเล็กทรอนิกส์ที่ต้องทนต่อการกัดกร่อน",
+        "symbol_": "Ir",
+        "elementState_": "Solid",
+        "atom_number": "77",
+        "atom_mass": "192.22",
+        "weight": "192.22",
+        "photron_": "77",
+        "electron_": "77",
+        "pos_in_table": {
+            "x": "9",
+            "y": "6"
+        },
+        "price": 146
+    },
+    {
+        "id": 68,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Platinum",
+        "description_": "ใช้ในเครื่องประดับ ค่าผลิตคาตาไลติก และอุปกรณ์อิเล็กทรอนิกส์",
+        "symbol_": "Pt",
+        "elementState_": "Solid",
+        "atom_number": "78",
+        "atom_mass": "195.08",
+        "weight": "195.08",
+        "photron_": "78",
+        "electron_": "78",
+        "pos_in_table": {
+            "x": "10",
+            "y": "6"
+        },
+        "price": 985.4121555319
+    },
+    {
+        "id": 69,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Gold",
+        "description_": "ใช้ในเครื่องประดับ วัตถุมีค่า และอุปกรณ์อิเล็กทรอนิกส์",
+        "symbol_": "Au",
+        "elementState_": "Solid",
+        "atom_number": "79",
+        "atom_mass": "196.97",
+        "weight": "196.97",
+        "photron_": "79",
+        "electron_": "79",
+        "pos_in_table": {
+            "x": "11",
+            "y": "6"
+        },
+        "price": 3025.5025662313
+    },
+    {
+        "id": 70,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Thallium",
+        "description_": "ใช้ในอุปกรณ์อิเล็กทรอนิกส์และเป็นส่วนประกอบในบางแร่",
+        "symbol_": "Tl",
+        "elementState_": "Solid",
+        "atom_number": "81",
+        "atom_mass": "204.38",
+        "weight": "204.38",
+        "photron_": "81",
+        "electron_": "81",
+        "pos_in_table": {
+            "x": "13",
+            "y": "6"
+        },
+        "price": 17
+    },
+    {
+        "id": 71,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Lead",
+        "description_": "ใช้ในอุตสาหกรรมและแบตเตอรี่ แต่เป็นธาตุกัมมันตรังสี",
+        "symbol_": "Pb",
+        "elementState_": "Solid",
+        "atom_number": "82",
+        "atom_mass": "207.2",
+        "weight": "207.2",
+        "photron_": "82",
+        "electron_": "82",
+        "pos_in_table": {
+            "x": "14",
+            "y": "6"
+        },
+        "price": 33
+    },
+    {
+        "id": 72,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Bismuth",
+        "description_": "ใช้ในอุตสาหกรรมเภสัชกรรมและอุปกรณ์อิเล็กทรอนิกส์",
+        "symbol_": "Bi",
+        "elementState_": "Solid",
+        "atom_number": "83",
+        "atom_mass": "208.98",
+        "weight": "208.98",
+        "photron_": "83",
+        "electron_": "83",
+        "pos_in_table": {
+            "x": "15",
+            "y": "6"
+        },
+        "price": 48
+    },
+    {
+        "id": 73,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Polonium",
+        "description_": "ธาตุกัมมันตรังสีที่มีอันตรายสูง ใช้ในงานวิจัยและการทดสอบ",
+        "symbol_": "Po",
+        "elementState_": "Solid",
+        "atom_number": "84",
+        "atom_mass": "209",
+        "weight": "209",
+        "photron_": "84",
+        "electron_": "84",
+        "pos_in_table": {
+            "x": "16",
+            "y": "6"
+        },
+        "price": 66
+    },
+    {
+        "id": 74,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Astatine",
+        "description_": "ธาตุกัมมันตรังสีที่หายากมาก ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "At",
+        "elementState_": "Solid",
+        "atom_number": "85",
+        "atom_mass": "210",
+        "weight": "210",
+        "photron_": "85",
+        "electron_": "85",
+        "pos_in_table": {
+            "x": "17",
+            "y": "6"
+        },
+        "price": 29
+    },
+    {
+        "id": 75,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Radon",
+        "description_": "าซกัมมันตรังสีที่เกิดขึ้นจากการสลายตัวของยูเรเนียม",
+        "symbol_": "Rn",
+        "elementState_": "Gas",
+        "atom_number": "86",
+        "atom_mass": "222",
+        "weight": "222",
+        "photron_": "86",
+        "electron_": "86",
+        "pos_in_table": {
+            "x": "18",
+            "y": "6"
+        },
+        "price": 132
+    },
+    {
+        "id": 76,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Francium",
+        "description_": "ธาตุกัมมันตรังสีที่มีความเสถียรต่ำและหายากมาก ใช้ในการวิจัยทางวิทยาศาสตร์\n\n",
+        "symbol_": "Fr",
+        "elementState_": "Solid",
+        "atom_number": "87",
+        "atom_mass": "223",
+        "weight": "223",
+        "photron_": "87",
+        "electron_": "87",
+        "pos_in_table": {
+            "x": "1",
+            "y": "7"
+        },
+        "price": 18
+    },
+    {
+        "id": 77,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Rutherfordium",
+        "description_": "ธาตุกัมมันตรังสีที่มีความเสถียรต่ำ ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Rf",
+        "elementState_": "Solid",
+        "atom_number": "104",
+        "atom_mass": "267",
+        "weight": "267",
+        "photron_": "104",
+        "electron_": "104",
+        "pos_in_table": {
+            "x": "4",
+            "y": "7"
+        },
+        "price": 50
+    },
+    {
+        "id": 78,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Dubnium",
+        "description_": "ธาตุกัมมันตรังสีที่มีความเสถียรต่ำ ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Db",
+        "elementState_": "Solid",
+        "atom_number": "105",
+        "atom_mass": "270",
+        "weight": "270",
+        "photron_": "105",
+        "electron_": "105",
+        "pos_in_table": {
+            "x": "5",
+            "y": "7"
+        },
+        "price": 62
+    },
+    {
+        "id": 79,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Seaborgium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Sg",
+        "elementState_": "Solid",
+        "atom_number": "106",
+        "atom_mass": "271",
+        "weight": "271",
+        "photron_": "106",
+        "electron_": "106",
+        "pos_in_table": {
+            "x": "6",
+            "y": "7"
+        },
+        "price": 20
+    },
+    {
+        "id": 80,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Bohrium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Bh",
+        "elementState_": "Solid",
+        "atom_number": "107",
+        "atom_mass": "270",
+        "weight": "270",
+        "photron_": "107",
+        "electron_": "107",
+        "pos_in_table": {
+            "x": "7",
+            "y": "7"
+        },
+        "price": 13
+    },
+    {
+        "id": 81,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Hassium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Hs",
+        "elementState_": "Solid",
+        "atom_number": "108",
+        "atom_mass": "277",
+        "weight": "277",
+        "photron_": "108",
+        "electron_": "108",
+        "pos_in_table": {
+            "x": "8",
+            "y": "7"
+        },
+        "price": 21
+    },
+    {
+        "id": 82,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Meitnerium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Mt",
+        "elementState_": "Solid",
+        "atom_number": "109",
+        "atom_mass": "278",
+        "weight": "278",
+        "photron_": "109",
+        "electron_": "109",
+        "pos_in_table": {
+            "x": "9",
+            "y": "7"
+        },
+        "price": 26
+    },
+    {
+        "id": 83,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Darmstadtium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Ds",
+        "elementState_": "Solid",
+        "atom_number": "110",
+        "atom_mass": "281",
+        "weight": "281",
+        "photron_": "110",
+        "electron_": "110",
+        "pos_in_table": {
+            "x": "10",
+            "y": "7"
+        },
+        "price": 65
+    },
+    {
+        "id": 84,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Roentgenium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Rg",
+        "elementState_": "Solid",
+        "atom_number": "111",
+        "atom_mass": "280",
+        "weight": "280",
+        "photron_": "111",
+        "electron_": "111",
+        "pos_in_table": {
+            "x": "11",
+            "y": "7"
+        },
+        "price": 22
+    },
+    {
+        "id": 85,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Copernicium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Cn",
+        "elementState_": "Solid",
+        "atom_number": "112",
+        "atom_mass": "285",
+        "weight": "285",
+        "photron_": "112",
+        "electron_": "112",
+        "pos_in_table": {
+            "x": "12",
+            "y": "7"
+        },
+        "price": 46
+    },
+    {
+        "id": 86,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Ununtrium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Uut",
+        "elementState_": "Solid",
+        "atom_number": "113",
+        "atom_mass": "284",
+        "weight": "284",
+        "photron_": "113",
+        "electron_": "113",
+        "pos_in_table": {
+            "x": "13",
+            "y": "7"
+        },
+        "price": 19
+    },
+    {
+        "id": 87,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Flerovium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Fl",
+        "elementState_": "Solid",
+        "atom_number": "114",
+        "atom_mass": "289",
+        "weight": "289",
+        "photron_": "114",
+        "electron_": "114",
+        "pos_in_table": {
+            "x": "14",
+            "y": "7"
+        },
+        "price": 14
+    },
+    {
+        "id": 88,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Ununpentium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Uup",
+        "elementState_": "Solid",
+        "atom_number": "115",
+        "atom_mass": "288",
+        "weight": "288",
+        "photron_": "115",
+        "electron_": "115",
+        "pos_in_table": {
+            "x": "15",
+            "y": "7"
+        },
+        "price": 10
+    },
+    {
+        "id": 89,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Livermorium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Lv",
+        "elementState_": "Solid",
+        "atom_number": "116",
+        "atom_mass": "293",
+        "weight": "293",
+        "photron_": "116",
+        "electron_": "116",
+        "pos_in_table": {
+            "x": "16",
+            "y": "7"
+        },
+        "price": 18
+    },
+    {
+        "id": 91,
+        "stack_": 1,
+        "sprite": "",
+        "name_": "Ununoctium",
+        "description_": "ธาตุกัมมันตรังสีที่ใช้ในการวิจัยทางวิทยาศาสตร์",
+        "symbol_": "Uuo",
+        "elementState_": "Solid",
+        "atom_number": "118",
+        "atom_mass": "294",
+        "weight": "294",
+        "photron_": "118",
+        "electron_": "118",
+        "pos_in_table": {
+            "x": "18",
+            "y": "7"
+        },
+        "price": 19
+    }
+]

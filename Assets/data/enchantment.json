@@ -1,0 +1,156 @@
+[
+    {
+        "id": 0,
+        "name": "Nitro Burst",
+        "description": "ทำให้การโจมตีมีโอกาสเกิดการระเบิดรุนแรงเมื่อกระทบเป้าหมาย",
+        "level": 1,
+        "maxLevel": 2,
+        "material_atom": {
+            "7": 5
+        },
+        "material_item": {},
+        "effects": {
+            "effectType": "Explosion",
+            "damage": 10
+        }
+    },
+    {
+        "id": 1,
+        "name": "Uranium Decay",
+        "description": "ทำให้ศัตรูได้รับความเสียหายจากพลังงานกัมมันตรังสีอย่างต่อเนื่อง",
+        "level": 1,
+        "maxLevel": 3,
+        "material_atom": {
+            "92": 10
+        },
+        "material_item": {},
+        "effects": {
+            "effectType": "DamageOverTime",
+            "damage": 5
+        }
+    },
+    {
+        "id": 2,
+        "name": "Tungsten Might",
+        "description": "เสริมความแข็งแกร่งของอาวุธและชุดเกราะ เพิ่มพลังป้องกันและความทนทาน",
+        "level": 1,
+        "maxLevel": 5,
+        "material_atom": {
+            "6": 5,
+            "74": 5
+        },
+        "material_item": {},
+        "effects": {
+            "effectType": "Sharpness",
+            "damage": 1
+        }
+    },
+    {
+        "id": 3,
+        "name": "Phosphor Blaze",
+        "description": "เพิ่มโอกาสติดไฟศัตรูเมื่อโจมตี",
+        "level": 1,
+        "maxLevel": 3,
+        "material_atom": {
+            "15": 5
+        },
+        "material_item": {},
+        "effects": {
+            "effectType": "DamageOverTime",
+            "damage": 5
+        }
+    },
+    {
+        "id": 4,
+        "name": "Fluorine Corrosion",
+        "description": "ลดเกราะและพลังป้องกันของศัตรูเมื่อโดนโจมตี",
+        "level": 1,
+        "maxLevel": 2,
+        "material_atom": {
+            "9": 10
+        },
+        "material_item": {},
+        "effects": {
+            "effectType": "DamageOverTime",
+            "damage": 1
+        }
+    },
+    {
+        "id": 5,
+        "name": "Cryo Shock",
+        "description": "มีโอกาสทำให้ศัตรูชะงักหรือเคลื่อนที่ช้าลงจากความเย็นเฉียบพลัน",
+        "level": 1,
+        "maxLevel": 4,
+        "material_atom": {
+            "1": 2,
+            "8": 3
+        },
+        "material_item": {},
+        "effects": {
+            "effectType": "DamageOverTime",
+            "damage": 3
+        }
+    },
+    {
+        "id": 6,
+        "name": "Titanium Shield",
+        "description": "เพิ่มความแข็งแกร่งให้กับเกราะหรือตัวละคร ลดความเสียหายที่ได้รับ",
+        "level": 1,
+        "maxLevel": 3,
+        "material_atom": {
+            "22": 10
+        },
+        "material_item": {},
+        "effects": {
+            "effectType": "Sharpness",
+            "damage": 1
+        }
+    },
+    {
+        "id": 7,
+        "name": "Magnesite Pulse",
+        "description": "เมื่อได้รับความเสียหาย มีโอกาสปล่อยคลื่นระเบิดเบาๆ ผลักศัตรูออกไป",
+        "level": 1,
+        "maxLevel": 2,
+        "material_atom": {
+            "12": 5
+        },
+        "material_item": {},
+        "effects": {
+            "effectType": "Explosion",
+            "damage": 3
+        }
+    },
+    {
+        "id": 8,
+        "name": "Sulfur Surge",
+        "description": "เพิ่มพลังระเบิดให้กับการโจมตีหรือทักษะที่ก่อให้เกิดแรงกระแทก",
+        "level": 1,
+        "maxLevel": 3,
+        "material_atom": {
+            "16": 5
+        },
+        "material_item": {},
+        "effects": {
+            "effectType": "Explosion",
+            "damage": 3
+        }
+    },
+    {
+        "id": 9,
+        "name": "Osmium Reinforcement",
+        "description": "เพิ่มความแข็งแรงเป็นพิเศษให้กับอาวุธ ทำให้อาวุธเสียหายยากขึ้นมาก",
+        "level": 1,
+        "maxLevel": 5,
+        "material_atom": {
+            "76": 10
+        },
+        "material_item": {
+            "23": 1
+        },
+        "effects": {
+            "effectType": "Sharpness",
+            "damage": 1
+        }
+    }
+]

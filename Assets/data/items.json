@@ -1,0 +1,278 @@
+[
+    {
+        "id": 1,
+        "sprite": "",
+        "itemName": "ผลึกคริสตัล",
+        "price": "500",
+        "description": "ของที่ครอปการการตีโกเลม(ซึ่งผลึกมันจะแบ่งตามธาตุของโกเลม",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": []
+    },
+    {
+        "id": 2,
+        "sprite": "",
+        "itemName": "H2O (น้ำ)",
+        "price": "100",
+        "description": "ของที่ดรอปจากสไลม์บางตัวที่ไม่เป็นพิษ สามารถเอามากินได้",
+        "category": "Consumable",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": [
+            {
+                "AtomNumber": 1,
+                "StackCount": 2
+            },
+            {
+                "AtomNumber": 8,
+                "StackCount": 1
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "sprite": "",
+        "itemName": "ชิ้นส่วนสไลม์",
+        "price": "200",
+        "description": "ดรอปจากสไลม์ทุกตัว เป็นส่วนประกอบพื้นฐาน",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": []
+    },
+    {
+        "id": 4,
+        "sprite": "",
+        "itemName": "ก้อนแก๊ส",
+        "price": "400",
+        "description": "ก้อนแก๊สที่ครอปจากมอสเตอร์ประเภทแก๊ส(ควัน)",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": []
+    },
+    {
+        "id": 5,
+        "sprite": "",
+        "itemName": "Rock Candy",
+        "price": "1000",
+        "description": "เป็นลูกกวาดที่ดรอปจากโกเลม รูปร่างคล้ายก้อนหิน แต่มีรสหวาน สามารถกินเพื่อเพิ่มเลือดได้",
+        "category": "Consumable",
+        "stack": 1,
+        "stackCount": "50",
+        "crafting_resources": []
+    },
+    {
+        "id": 6,
+        "sprite": "",
+        "itemName": "สายไหม",
+        "price": "1000",
+        "description": "เป็นของที่ครอปจากมอนสเตอร์ประเภทแก๊ส มีลักษณะเป็นก้อนคล้ายๆควัน สามารถกินเพื่อเพิ่มเลือดได้",
+        "category": "Consumable",
+        "stack": 1,
+        "stackCount": "50",
+        "crafting_resources": []
+    },
+    {
+        "id": 7,
+        "sprite": "",
+        "itemName": "ก้อนหิน",
+        "price": "50",
+        "description": "ดรอปจากโกเลมและการขุดแร่",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": []
+    },
+    {
+        "id": 8,
+        "sprite": "",
+        "itemName": "อดาแมนไทต์",
+        "price": "2500",
+        "description": "ได้จากการขุดแร่และดรอปจากโกเลมบางตัว",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": [
+            {
+                "AtomNumber": 22,
+                "StackCount": 5
+            },
+            {
+                "AtomNumber": 28,
+                "StackCount": 3
+            },
+            {
+                "AtomNumber": 6,
+                "StackCount": 2
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "sprite": "",
+        "itemName": "ไวรเลียม",
+        "price": "3500",
+        "description": "แร่ที่ได้จากการขุดแร่และดรอปจากโกเลมบางตัว",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": []
+    },
+    {
+        "id": 10,
+        "sprite": "",
+        "itemName": "ก้อนทองคำวิเศษ",
+        "price": "7000",
+        "description": "แร่ที่ได้จากการขุดแร่และดรอปจากโกเลมบางตัว มีมุลค่าที่สูง",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": [
+            {
+                "AtomNumber": 54,
+                "StackCount": 80
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "sprite": "",
+        "itemName": "เพชรอัญมณี",
+        "price": "200000",
+        "description": "แร่ที่ได้จากการขุดแร่และดรอปจากโกเลมบางตัว เป็นแร่ที่แข็งและมีมูลค่าสูงมาก แต่จะหายาก",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": [
+            {
+                "AtomNumber": 6,
+                "StackCount": 100
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "sprite": "",
+        "itemName": "อัญมณีหยดน้ำ",
+        "price": "5000",
+        "description": "อัญมณีที่ได้จากการจัดการสไลม์ มีโอกาสดรอปน้อย",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": []
+    },
+    {
+        "id": 13,
+        "sprite": "",
+        "itemName": "เมือกสไลม์",
+        "price": "50",
+        "description": "ของเหลวที่ดรอปจากสไลม์ มีกลิ่นเฉพาะตัว",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": []
+    },
+    {
+        "id": 14,
+        "sprite": "",
+        "itemName": "ขี้เถ้า",
+        "price": "10",
+        "description": "ของที่ดรอปจากมอนเตอร์ประเภทแก๊ส",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": []
+    },
+    {
+        "id": 15,
+        "sprite": "",
+        "itemName": "หัวใจของแก๊ส",
+        "price": "10000",
+        "description": "ของหายากที่จะดรอปจากมอนเตอร์ประเภทแก๊ส ขายได้แพงและหายากมากๆ",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "50",
+        "crafting_resources": []
+    },
+    {
+        "id": 16,
+        "sprite": "",
+        "itemName": "หัวใจของโกเลม",
+        "price": "10000",
+        "description": "ของหายากที่จะดรอปจากมอนเตอร์โกเลม ขายได้แพงและหายากมากๆ",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "50",
+        "crafting_resources": []
+    },
+    {
+        "id": 17,
+        "sprite": "",
+        "itemName": "หัวใจของสไลม์",
+        "price": "10000",
+        "description": "ของหายากที่จะดรอปจากมอนเตอร์สไลม์ ขายได้แพงและหายากมากๆ",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "50",
+        "crafting_resources": []
+    },
+    {
+        "id": 18,
+        "sprite": "",
+        "itemName": "แก่นแท้ของโกเลม",
+        "price": "30000",
+        "description": "แก่นแท้ของโกเลมที่ดรอปจากโกเลมที่อยู่มาอย่างยาวนานถึง 5000 ปี",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "30",
+        "crafting_resources": []
+    },
+    {
+        "id": 19,
+        "sprite": "",
+        "itemName": "หยดน้ำตาของสไลม์",
+        "price": "30000",
+        "description": "มีแค่สไลม์บางตัวเท่านั้นที่จะมีอารมณ์และความรู้สึกมันจึงเกิดเป็นน้ำตาของสไลม์",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "30",
+        "crafting_resources": []
+    },
+    {
+        "id": 20,
+        "sprite": "",
+        "itemName": "แก๊สหัวเราะ",
+        "price": "30000",
+        "description": "ไม่ใช่มอนเตอร์ประเภทแก๊ะทุกตัวที่จะอารมณ์ดีและผลิตแก๊สหัวเราะออกมาได้",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "30",
+        "crafting_resources": []
+    },
+    {
+        "id": 22,
+        "sprite": "",
+        "itemName": "Platinum",
+        "price": "10000",
+        "description": "แร่ที่ได้จากการขุดแร่และดรอปจากโกเลมบางตัว มีมูลค่าที่สูง",
+        "category": "Miscellaneous",
+        "stack": 1,
+        "stackCount": "99",
+        "crafting_resources": [
+            {
+                "AtomNumber": 26,
+                "StackCount": 20
+            },
+            {
+                "AtomNumber": 28,
+                "StackCount": 20
+            },
+            {
+                "AtomNumber": 24,
+                "StackCount": 10
+            }
+        ]
+    }
+]

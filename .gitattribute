@@ -1,0 +1,66 @@
+# Handle text files
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.html text eol=lf
+*.htm text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.asm text eol=lf
+*.rsp text eol=lf
+*.manifest text eol=lf
+
+# Handle binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.psd binary
+*.tif binary
+*.tiff binary
+*.bmp binary
+*.tga binary
+*.dds binary
+*.exr binary
+*.fbx binary
+*.obj binary
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.pdf binary
+*.blend binary
+*.prefab binary
+*.unity binary
+*.asset binary
+*.mat binary
+*.controller binary
+*.anim binary
+*.meta binary # Important:  Mark .meta as binary to avoid line ending issues
+*.spriteatlas binary
+
+# Force Unity YAML merge (if you're not using the default)
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset merge=unityyamlmerge
+*.mat merge=unityyamlmerge
+*.anim merge=unityyamlmerge
+*.controller merge=unityyamlmerge
+*.physicsMaterial2D merge=unityyamlmerge
+*.physicsMaterial merge=unityyamlmerge
+
+# Git LFS Attributes (Important for Pixel Art)
+*.png filter=lfs diff=lfs merge=lfs
+*.jpg filter=lfs diff=lfs merge=lfs
+*.jpeg filter=lfs diff=lfs merge=lfs
+*.gif filter=lfs diff=lfs merge=lfs
+*.psb filter=lfs diff=lfs merge=lfs # Large Photoshop files
+*.tif filter=lfs diff=lfs merge=lfs
+*.tiff filter=lfs diff=lfs merge=lfs
