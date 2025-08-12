@@ -1,0 +1,14 @@
+
+  "th": {
+    "welcome_message": "ยินดีต้อนรับ",
+    "play_button": "เล่น",
+    "options_button": "ตั้งค่า",
+    "retrun_expendition": "กลับออกจากดันเจียน"
+  },
+  "en": {
+    "welcome_message": "Welcome",
+    "play_button": "Play",
+    "options_button": "Options",
+    "retrun_expendition": "Return from Expedition"
+  }
+

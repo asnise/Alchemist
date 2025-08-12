@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -99,20 +99,23 @@ public class PlayerCombat : MonoBehaviour
 
     void MoveHitboxToMouse()
     {
-        // Get mouse movement delta
-        float mouseX = Input.GetAxis("Mouse X");
-        float mouseY = Input.GetAxis("Mouse Y");
+        // แปลงตำแหน่งเมาส์บนหน้าจอ (Screen Space) เป็นตำแหน่งในโลก (World Space)
+        // Camera.main คือกล้องหลักของเกม
+        // Z-coordinate ถูกกำหนดให้เป็นระยะห่างจากกล้อง
+        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.nearClipPlane));
 
-        // Apply movement based on mouse input
-        localOffset += new Vector3(mouseX, mouseY, 0) * moveSpeed * Time.deltaTime;
+        // คำนวณ Vector ที่ชี้จากผู้เล่นไปยังตำแหน่งเมาส์
+        Vector3 directionToMouse = mouseWorldPosition - transform.position;
 
-        // Clamp movement to stay within range
-        if (localOffset.magnitude > radius_range_attack)
-        {
-            localOffset = localOffset.normalized * radius_range_attack;
-        }
+        // ตั้งค่า Z ให้เป็น 0 เพราะเกมของคุณเป็น 2D หรือต้องการควบคุมในแกน XY เท่านั้น
+        directionToMouse.z = 0;
 
-        // Update hitbox position
+        // คำนวณ localOffset ใหม่โดยใช้ vector ที่ชี้ไปยังเมาส์
+        // เราจะใช้ .normalized เพื่อให้ได้ vector ที่มีขนาดเท่ากับ 1
+        // แล้วคูณด้วย radius_range_attack เพื่อจำกัดระยะห่าง
+        localOffset = directionToMouse.normalized * Mathf.Min(directionToMouse.magnitude, radius_range_attack);
+
+        // อัปเดตตำแหน่ง hitbox
         hitbox_pos.transform.position = transform.position + localOffset;
     }
 
