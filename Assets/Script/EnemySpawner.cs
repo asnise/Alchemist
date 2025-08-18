@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +13,6 @@ public class EnemySpawner : MonoBehaviour
     public Vector2 areaSize;
     public int maxEnemies = 100;
     public float spawnInterval = 2f;
-    public bool LimiteSpawn;
     public float SpawnLevelIntervalPreSecon = 1;
     public Transform player;
     public Transform Portal_in_dungeon;
