@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6660612351173403864}
   - component: {fileID: 6302489265806756781}
+  - component: {fileID: 3582199053023032855}
   m_Layer: 0
   m_Name: tree_mr
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 356129590377109029}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.09, y: -1.18, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -55,6 +56,41 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!58 &3582199053023032855
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356129590377109029}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.96}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &4057438350827577765
 GameObject:
   m_ObjectHideFlags: 0
@@ -65,6 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4818226284438039181}
   - component: {fileID: 6680432358536472879}
+  - component: {fileID: 2180919393012594069}
   m_Layer: 0
   m_Name: tree_0
   m_TagString: Untagged
@@ -139,6 +176,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2180919393012594069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4057438350827577765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d7118212fba04694e64cb4b42cc39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _yOffset: -0.37
 --- !u!1 &4911256986076108172
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,8 +259,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 898048841
+  m_SortingLayer: 1
   m_SortingOrder: 10
   m_Sprite: {fileID: 5703969951897709065, guid: 93bbae4b8d6f64d4fb674f57dd9a4b19, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

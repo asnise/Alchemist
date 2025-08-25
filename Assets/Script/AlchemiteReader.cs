@@ -275,4 +275,38 @@ public class AlchemiteReader : MonoBehaviour
             FurnaceSlot_view.Add(slot);
         }
     }
+
+    public void ReturnAllElementalsFromFurnace()
+    {
+        // Loop through each element in the inFurnace list
+        foreach (ElementalStructure elemental in inFurnace)
+        {
+            // Find if the same elemental already exists in the player's inventory
+            var existingElemental = player.playerStatus_.elementals.Find(e => e.atom_number == elemental.atom_number);
+
+            // If it exists, increase its stack count
+            if (existingElemental != null)
+            {
+                existingElemental.stack_Count += elemental.stack_Count;
+            }
+            // If it doesn't exist, add a new instance of it to the player's inventory
+            else
+            {
+                // You should instantiate a new object to avoid issues with referencing the original object
+                var newElemental = Instantiate(elemental);
+                newElemental.stack_Count = elemental.stack_Count;
+                player.playerStatus_.elementals.Add(newElemental);
+            }
+        }
+
+        // Clear the inFurnace list after returning all elements
+        inFurnace.Clear();
+
+        // Re-render the UI for both inventories to show the changes
+        CreateItemSlot();
+        CreateItemSlotinFurnace();
+
+        // Since the furnace is empty, you might want to update the crafting recipes as well
+        CombineAtom();
+    }
 }
